@@ -1,0 +1,47 @@
+{
+  "name": "vuejs-parcel-kickstart",
+  "version": "1.0.0",
+  "description": "A simple but complete kickstart scaffold for Vue.js and Parcel.js with Babel and Eslint.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified. Will change this in the future.\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihilor/vuejs-parcel-kickstart.git"
+  },
+  "keywords": [
+    "Vue",
+    "Vue.js",
+    "Parcel",
+    "Parcel.js",
+    "Kickstart",
+    "Scaffold",
+    "SPA"
+  ],
+  "author": "Mark Lubkowitz <me@mlu.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nihilor/vuejs-parcel-kickstart/issues"
+  },
+  "homepage": "https://github.com/nihilor/vuejs-parcel-kickstart#readme",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "acorn": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.3.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-eslint": "^1.0.7",
+    "vue-eslint-parser": "^6.0.4",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
